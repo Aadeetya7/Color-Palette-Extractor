@@ -7,7 +7,6 @@ const Footer = () => {
                 <p className="text-center text-gray-500">Built with modern web technologies</p>
             </div>
         </footer>
-
     )
 }
 

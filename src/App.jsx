@@ -8,22 +8,16 @@ function App() {
 
   return (
     <section className="bg-gray-50 min-h-screen">
-      {/* <!-- Header --> */}
       <Header />
 
-      {/* <!-- Main Content --> */}
       <main className="max-w-6xl mx-auto px-4 py-8">
-        {/* <!-- Upload Section --> */}
         <UploadFile />
 
-        {/* <!-- Image Preview Section --> */}
         <ImagePreview />
 
-        {/* <!-- Color Palette Section --> */}
         <ExtractedColorPalette />
       </main>
 
-      {/* <!-- Footer --> */}
       <Footer />
     </section>
   )
