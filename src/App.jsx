@@ -1,15 +1,11 @@
+import Header from "./components/Header/Header"
 
 function App() {
 
   return (
     <section className="bg-gray-50 min-h-screen">
       {/* <!-- Header --> */}
-      <header className="bg-white shadow-sm border-b border-gray-200">
-        <div className="max-w-6xl mx-auto px-4 py-6 text-center">
-          <h1 className="text-3xl font-bold text-gray-900">Color Palette Extractor</h1>
-          <p className="text-gray-600 mt-2">Upload an image to extract its dominant colors</p>
-        </div>
-      </header>
+     <Header/>
 
       {/* <!-- Main Content --> */}
       <main className="max-w-6xl mx-auto px-4 py-8">
@@ -19,7 +15,7 @@ function App() {
             <div id="upload-area" className="border-2 border-dashed border-gray-300 rounded-lg p-12 hover:border-[#6366f1] transition-colors cursor-pointer">
               <div id="upload-content">
                 <svg className="mx-auto h-12 w-12 text-gray-400 mb-4" stroke="currentColor" fill="none" viewBox="0 0 48 48">
-                  <path d="M28 8H12a4 4 0 00-4 4v20m32-12v8m0 0v8a4 4 0 01-4 4H12a4 4 0 01-4-4v-4m32-4l-3.172-3.172a4 4 0 00-5.656 0L28 28M8 32l9.172-9.172a4 4 0 015.656 0L28 28m0 0l4 4m4-24h8m-4-4v8m-12 4h.02" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path d="M28 8H12a4 4 0 00-4 4v20m32-12v8m0 0v8a4 4 0 01-4 4H12a4 4 0 01-4-4v-4m32-4l-3.172-3.172a4 4 0 00-5.656 0L28 28M8 32l9.172-9.172a4 4 0 015.656 0L28 28m0 0l4 4m4-24h8m-4-4v8m-12 4h.02" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
                 </svg>
                 <h3 className="text-lg font-medium text-gray-900 mb-2">Upload an image</h3>
                 <p className="text-gray-500 mb-4">Drag and drop your image here, or click to browse</p>

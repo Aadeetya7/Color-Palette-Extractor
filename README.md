@@ -1,4 +1,11 @@
-# React + Vite
+# React + Vite Color Palette Geberator project 
+
+1) To Start use - npm run dev
+2) For npm use - npm install
+
+
+# By Defaults are listed below
+---
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
