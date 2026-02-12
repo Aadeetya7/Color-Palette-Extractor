@@ -12,7 +12,7 @@ const ExtractedColorPalette = () => {
                     <div className="w-full h-24 rounded-lg shadow-sm border border-gray-200 group-hover:shadow-md transition-shadow" style={{ backgroundColor: "#FF6B6B" }}> </div>
                     <div className="mt-2 text-center">
                         <p className="text-sm font-mono text-gray-700">#FF6B6B</p>
-                        <p className="text-xs text-gray-500">Coral Red</p>
+                        <p className="text-xs text-gray-500">Coral Red how are you </p>
                     </div>
                 </div>
 
