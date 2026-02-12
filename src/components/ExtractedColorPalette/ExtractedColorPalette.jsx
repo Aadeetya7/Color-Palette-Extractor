@@ -19,7 +19,7 @@ const ExtractedColorPalette = () => {
                 <div className="color-swatch group cursor-pointer">
                     <div className="w-full h-24 rounded-lg shadow-sm border border-gray-200 group-hover:shadow-md transition-shadow" style={{ backgroundColor: "#4ECDC4" }}   ></div>
                     <div className="mt-2 text-center">
-                        <p className="text-sm font-mono text-gray-700">#4ECDC4</p>
+                        <p className="text-sm font-mono text-gray-700">#4ECDC4 i am aditya </p>
                         <p className="text-xs text-gray-500">Turquoise</p>
                     </div>
                 </div>
