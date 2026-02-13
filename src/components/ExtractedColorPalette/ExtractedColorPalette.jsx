@@ -22,6 +22,7 @@ const ExtractedColorPalette = () => {
                         <p className="text-sm font-mono text-gray-700">#4ECDC4 i am aditya </p>
                         <p className="text-xs text-gray-500">Turquoise is my favourite color</p>
                     </div>
+                    <div>Hello aditya 13-02</div>
                 </div>
 
                 <div className="color-swatch group cursor-pointer">
